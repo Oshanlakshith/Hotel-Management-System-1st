@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Welcome" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b7b06a2b-5df8-4853-92b1-13b89bcbf2bb">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JDBC Connection"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[SELECT*FROM Reservation;
+]]>
+	</queryString>
+	<field name="RId" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="RId"/>
+		<property name="com.jaspersoft.studio.field.label" value="RId"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CId" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CId"/>
+		<property name="com.jaspersoft.studio.field.label" value="CId"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="RoomNo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="RoomNo"/>
+		<property name="com.jaspersoft.studio.field.label" value="RoomNo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MealId" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MealId"/>
+		<property name="com.jaspersoft.studio.field.label" value="MealId"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MealType" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MealType"/>
+		<property name="com.jaspersoft.studio.field.label" value="MealType"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MealPrice" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MealPrice"/>
+		<property name="com.jaspersoft.studio.field.label" value="MealPrice"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CheckInDate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CheckInDate"/>
+		<property name="com.jaspersoft.studio.field.label" value="CheckInDate"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CheckOutDate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CheckOutDate"/>
+		<property name="com.jaspersoft.studio.field.label" value="CheckOutDate"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="RoomType" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="RoomType"/>
+		<property name="com.jaspersoft.studio.field.label" value="RoomType"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="price" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="price"/>
+		<property name="com.jaspersoft.studio.field.label" value="price"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Adult" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Adult"/>
+		<property name="com.jaspersoft.studio.field.label" value="Adult"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Child" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Child"/>
+		<property name="com.jaspersoft.studio.field.label" value="Child"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Date"/>
+		<property name="com.jaspersoft.studio.field.label" value="Date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Time" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Time"/>
+		<property name="com.jaspersoft.studio.field.label" value="Time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Total" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Total"/>
+		<property name="com.jaspersoft.studio.field.label" value="Total"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reservation"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="210" y="9" width="180" height="30" forecolor="#A808FF" uuid="12b36b3e-a8f8-4bea-b31b-5a12d31881d8"/>
+				<textElement>
+					<font size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Welcome Report]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="32" width="106" height="30" forecolor="#874645" uuid="3bb6b45d-2d13-4fb8-b1d7-4eed39871fd0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Hotel Systems]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="-2" y="46" width="100" height="28" uuid="05f241a9-09bf-4cc6-ac5f-fede3f2230a5"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm">
+				<reportElement x="484" y="45" width="100" height="30" uuid="69e26eb2-451d-4536-81a1-450eedd6ffd6"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="-20" y="64" width="595" height="1" uuid="c7adbb80-5f37-4072-9de0-19d2c3d2e299"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="72" height="30" uuid="52a0b9f0-ec04-4889-9c82-e43f30d1853d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6332eecd-74a3-4f79-b42e-050f902ee02b"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RId]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="72" y="0" width="69" height="30" uuid="f713241d-b09f-46a9-aae1-e0f070843840">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="74a12339-119d-4fc3-a186-84254f34a88f"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CId]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="0" width="69" height="30" uuid="0d4d2733-9649-462f-b9e8-c926fb7330b9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d5b81400-ec93-4998-8909-a767d98b47fd"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RoomNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="0" width="69" height="30" uuid="59f2e8d5-fbae-4a87-9a51-6c7309c38bc3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="873b1db0-2884-45a0-ba98-264e4f6cd268"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[MealType]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="0" width="69" height="30" uuid="7589f32b-46f6-4be2-af0e-824bac8e59f0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="56b974b1-e5be-44d8-9c1e-203888287590"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CheckInDate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="0" width="69" height="30" uuid="6b4923ea-d2c1-4c50-8bfb-4e1e32d7ac8c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6ea2af8f-a5dd-4989-9188-da17cc8765d3"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CheckOutDate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="0" width="75" height="30" uuid="e8d4d61e-cf3b-4ee3-aa4a-f7cc89801e2f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e9104261-7a28-428b-a25e-483fd4fc6c9f"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RoomType]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="492" y="0" width="68" height="30" uuid="12982c00-6f8d-4332-8fd8-082ea73c4d6a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a6354bbb-a3d0-48e1-b7b4-5d64669c3a75"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="34" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="-1" width="72" height="30" uuid="570ec8db-e954-4a99-95e0-9a3a62784bb9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6332eecd-74a3-4f79-b42e-050f902ee02b"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{RId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="72" y="-1" width="69" height="30" uuid="1388fb80-d8cb-4235-96f1-73908a79da89">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="74a12339-119d-4fc3-a186-84254f34a88f"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{CId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="141" y="-1" width="69" height="30" uuid="bc2f4172-459f-40cb-898c-b49a4f287f44">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d5b81400-ec93-4998-8909-a767d98b47fd"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{RoomNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="-1" width="69" height="30" uuid="5dfeba40-cf6e-493d-95ef-e812fa4b7a5a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="873b1db0-2884-45a0-ba98-264e4f6cd268"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MealType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="-1" width="69" height="30" uuid="db564623-5538-493c-980f-17fb1f591b74">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="56b974b1-e5be-44d8-9c1e-203888287590"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{CheckInDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="348" y="-1" width="69" height="30" uuid="2bbc4f9d-b91e-49b6-9197-d2942a61ff9b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6ea2af8f-a5dd-4989-9188-da17cc8765d3"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{CheckOutDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="-1" width="75" height="30" uuid="0d7818b7-8e7b-4e0b-8af6-baf986f74b61">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e9104261-7a28-428b-a25e-483fd4fc6c9f"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{RoomType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="492" y="-1" width="68" height="30" uuid="8614ec21-f270-490f-8bc0-40d17b587042">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a6354bbb-a3d0-48e1-b7b4-5d64669c3a75"/>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{Total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="1" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="44" splitType="Stretch">
+			<staticText>
+				<reportElement x="49" y="-3" width="371" height="44" uuid="6bd7b7b1-4974-4467-bed5-38b511077bc6"/>
+				<text><![CDATA[                                                                 Contact No:0763572516
+ ]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

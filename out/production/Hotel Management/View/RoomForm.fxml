@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="596.0" prefWidth="1588.0" style="-fx-background-color: #f5f6fa;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomFormController">
+   <children>
+      <AnchorPane prefHeight="43.0" prefWidth="1588.0" style="-fx-background-color: #2f3640;">
+         <children>
+            <Label layoutX="705.0" layoutY="6.0" text="Add Room" textFill="#fbff00">
+               <font>
+                  <Font name="Bell MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="1334.0" layoutY="9.0" text="Rooms :" textFill="WHITE" />
+            <Label fx:id="lblRooms" layoutX="1395.0" layoutY="11.0" text="Rooms :" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="56.0" prefHeight="529.0" prefWidth="558.0" style="-fx-border-color: #2f3640;">
+         <children>
+            <AnchorPane layoutX="147.0" layoutY="21.0" prefHeight="283.0" prefWidth="399.0" style="-fx-background-color: #F8EFBA;" />
+            <AnchorPane layoutX="16.0" layoutY="21.0" prefHeight="283.0" prefWidth="122.0" style="-fx-background-color: #fad390;" />
+            <TextField layoutX="71.0" layoutY="-8.0" prefHeight="31.0" prefWidth="131.0" style="-fx-background-color: #f5f6fa;" />
+            <Label layoutX="78.0" layoutY="-9.0" text="Add Room Deatail">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="27.0" layoutY="100.0" text="Room Type :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="37.0" layoutY="316.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #2f3640;" text="Save" textFill="#ffe100">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="401.0" layoutY="316.0" mnemonicParsing="false" onAction="#ClearButton" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #2f3640;" text="Clear" textFill="#ffe100">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="277.0" layoutY="316.0" mnemonicParsing="false" onAction="#DeleteButton" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #2f3640;" text="Delete" textFill="#ffe100">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="157.0" layoutY="316.0" mnemonicParsing="false" onAction="#UpdateButton" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #2f3640;" text="Update" textFill="#ffe100">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <ImageView fitHeight="140.0" fitWidth="548.0" layoutX="5.0" layoutY="381.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/f2fcda9319d2221525158b6adfef001f.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtRoomType" layoutX="158.0" layoutY="95.0" prefHeight="31.0" prefWidth="376.0" />
+            <Label layoutX="27.0" layoutY="42.0" text="Room Id :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtRoomId" layoutX="156.0" layoutY="37.0" onAction="#SearchButton" prefHeight="31.0" prefWidth="376.0" />
+            <Label layoutX="26.0" layoutY="158.0" text="A/C Type :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAcType" disable="true" editable="false" layoutX="156.0" layoutY="202.0" prefHeight="31.0" prefWidth="376.0" />
+            <ComboBox fx:id="cmbAcType" layoutX="159.0" layoutY="158.0" prefHeight="31.0" prefWidth="258.0" />
+            <TextField fx:id="txtPrice" layoutX="156.0" layoutY="265.0" prefHeight="31.0" prefWidth="376.0" />
+            <Label layoutX="27.0" layoutY="270.0" text="Price :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="656.0" layoutY="227.0" prefHeight="13.0" prefWidth="101.0" style="-fx-background-color: #f5f6fa;" />
+      <ImageView fitHeight="96.0" fitWidth="274.0" layoutX="1313.0" layoutY="43.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/khipk-twin-7888-hor-feat.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="584.0" layoutY="68.0" prefHeight="31.0" prefWidth="498.0" />
+      <Button layoutX="1099.0" layoutY="68.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="122.0" text="Search">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="173.0" fitWidth="274.0" layoutX="1312.0" layoutY="140.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/deluxe-room-slider3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="274.0" layoutX="1313.0" layoutY="316.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="274.0" layoutX="1312.0" layoutY="468.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/khipk-twin-7888-hor-feat.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tblRooms" layoutX="578.0" layoutY="113.0" prefHeight="405.0" prefWidth="719.0">
+        <columns>
+          <TableColumn fx:id="colRoomId" prefWidth="137.0" text="Room Id" />
+          <TableColumn fx:id="colRoomType" prefWidth="199.0" text="Room Type" />
+            <TableColumn fx:id="colAc" prefWidth="194.0" text="A/C" />
+            <TableColumn fx:id="colPrice" prefWidth="188.0" text="Price" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="578.0" layoutY="527.0" prefHeight="58.0" prefWidth="719.0" style="-fx-background-color: #f5f6fa; -fx-background-radius: 20;">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

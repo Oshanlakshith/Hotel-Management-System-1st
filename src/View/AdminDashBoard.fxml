@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="769.0" prefWidth="1613.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminDashBoardController">
+   <children>
+      <AnchorPane prefHeight="59.0" prefWidth="1614.0" style="-fx-background-color: #2f3640;">
+         <children>
+            <Label layoutX="538.0" layoutY="10.0" text="Admin Form" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="708.0" fitWidth="1613.0" layoutX="1.0" layoutY="60.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/method.jpg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="16.0" layoutY="75.0" mnemonicParsing="false" onAction="#EmployeAdd" prefHeight="75.0" prefWidth="215.0" style="-fx-background-color: #3d3d3d;" text="Employe Add" textFill="#ffcc00">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button layoutX="275.0" layoutY="75.0" mnemonicParsing="false" onAction="#AddRoom" prefHeight="75.0" prefWidth="215.0" style="-fx-background-color: #2f3640;" text="Add Room" textFill="#ffcc00">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button layoutX="552.0" layoutY="75.0" mnemonicParsing="false" onAction="#MealButton" prefHeight="75.0" prefWidth="215.0" style="-fx-background-color: #2f3640;" text="Meal Add" textFill="#ffee00">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button layoutX="804.0" layoutY="76.0" mnemonicParsing="false" onAction="#Payment" prefHeight="75.0" prefWidth="215.0" style="-fx-background-color: #2f3640;" text="All Customer Payment" textFill="#ffee00">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <AnchorPane fx:id="AdminAnchor" layoutX="10.0" layoutY="163.0" prefHeight="605.0" prefWidth="1596.0" />
+   </children>
+</AnchorPane>

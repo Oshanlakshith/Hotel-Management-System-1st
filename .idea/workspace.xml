@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcf8f226-4b32-47d8-a6cf-c85c8ddac91f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking form.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Management/AppInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Management/AppInitialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking slots.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save customer.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitialize.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20UNkCehMEC219Nl7JpyXL2yWvA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my All project\1st semester orginal complete project hote\hotel\Hotel Management" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my All project\1st semester orginal complete project hote\hotel\Hotel Management\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppInitialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitialize" />
+      <module name="Hotel Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitialize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcf8f226-4b32-47d8-a6cf-c85c8ddac91f" name="Default Changelist" comment="" />
+      <created>1636095349352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636095349352</updated>
+      <workItem from="1636095350774" duration="1186000" />
+      <workItem from="1636266724588" duration="364000" />
+      <workItem from="1636339051122" duration="2718000" />
+      <workItem from="1636443108694" duration="1468000" />
+      <workItem from="1636511454662" duration="2507000" />
+      <workItem from="1636603426867" duration="2472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="769.0" prefWidth="1613.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeatailController">
+   <children>
+      <ImageView fitHeight="511.0" fitWidth="1592.0" layoutX="14.0" layoutY="253.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/main-new.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="63.0" prefWidth="1613.0" style="-fx-background-color: #2f3640;">
+         <children>
+            <Label layoutX="739.0" layoutY="6.0" text=" All Deatails" textFill="#ffd400">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="tblDeatail" layoutX="27.0" layoutY="285.0" prefHeight="470.0" prefWidth="1554.0">
+        <columns>
+          <TableColumn fx:id="colReservationId" prefWidth="127.99996948242188" text="Reservation Id" />
+          <TableColumn fx:id="colCustomerId" prefWidth="102.99996948242188" text="CID" />
+            <TableColumn fx:id="colRoomNo" prefWidth="102.99996948242188" text="RoomNo" />
+            <TableColumn fx:id="colMealId" prefWidth="102.99996948242188" text="MealNo" />
+            <TableColumn fx:id="colMealType" prefWidth="102.99996948242188" text="MealType" />
+            <TableColumn fx:id="colMealPrice" prefWidth="102.99996948242188" text="MealPrice" />
+            <TableColumn fx:id="colCheckIn" prefWidth="102.99996948242188" text="Check-In" />
+            <TableColumn fx:id="colcheckOut" prefWidth="88.0" text="Check-Out" />
+            <TableColumn fx:id="colRoomType" prefWidth="103.0" text="RoomType" />
+            <TableColumn fx:id="colRoomPrice" prefWidth="95.0" text="RoomPrice" />
+            <TableColumn fx:id="colAdut" prefWidth="99.0" text="Adult" />
+            <TableColumn fx:id="colChild" prefWidth="87.0" text="Child" />
+            <TableColumn fx:id="colDate" prefWidth="98.0" text="Date" />
+            <TableColumn fx:id="colTime" prefWidth="117.0" text="Time" />
+            <TableColumn fx:id="colTotal" prefWidth="120.0" text="Total" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblReservation" alignment="CENTER" layoutX="1037.0" layoutY="76.0" prefHeight="98.0" prefWidth="243.0" style="-fx-background-color: #44bd32;" text="0">
+         <font>
+            <Font name="Bell MT" size="59.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label fx:id="lblRoom" alignment="CENTER" layoutX="1337.0" layoutY="77.0" prefHeight="98.0" prefWidth="243.0" style="-fx-background-color: #44bd32;" text="0">
+         <font>
+            <Font name="Bell MT" size="59.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="1337.0" layoutY="75.0" prefHeight="26.0" prefWidth="56.0" text="Rooms" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReservation1" alignment="CENTER" layoutX="36.0" layoutY="76.0" prefHeight="98.0" prefWidth="243.0" style="-fx-background-color: #d63031;" text="200" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="59.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="43.0" layoutY="77.0" text="Room Quantity" textFill="WHITE" />
+      <Label layoutX="1037.0" layoutY="75.0" prefHeight="26.0" prefWidth="95.0" text="Reservation" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReservation11" alignment="CENTER" layoutX="299.0" layoutY="77.0" prefHeight="98.0" prefWidth="243.0" style="-fx-background-color: #30336b;" text="150" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="59.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="299.0" layoutY="78.0" text="Parking Slots" textFill="WHITE" />
+   </children>
+</AnchorPane>

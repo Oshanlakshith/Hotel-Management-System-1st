@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="769.0" prefWidth="1613.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookingRoomController">
+   <children>
+      <ImageView fitHeight="696.0" fitWidth="1104.0" layoutX="5.0" layoutY="64.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/deluxe-room-slider3.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="60.0" prefWidth="1613.0" style="-fx-background-color: #2c3e50;">
+         <children>
+            <Label layoutX="668.0" layoutY="5.0" text="Booking Room" textFill="#ffc800">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="tblBookingRoom" layoutX="18.0" layoutY="197.0" prefHeight="558.0" prefWidth="1090.0">
+        <columns>
+          <TableColumn fx:id="colRoomNo" prefWidth="166.00003051757812" text="Room No" />
+          <TableColumn fx:id="colcustomerId" prefWidth="181.0" text="Customer Id" />
+            <TableColumn fx:id="colReservation" prefWidth="251.0" text="Reservation" />
+            <TableColumn fx:id="colRoomPrice" prefWidth="240.0" text="Room Price" />
+            <TableColumn fx:id="colDate" prefWidth="251.0" text="Date" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="253.0" fitWidth="491.0" layoutX="1116.0" layoutY="511.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/deluxe-room-slider3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="194.0" fitWidth="491.0" layoutX="1116.0" layoutY="310.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/f2fcda9319d2221525158b6adfef001f.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="238.0" fitWidth="491.0" layoutX="1116.0" layoutY="65.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblBookingRoom" alignment="CENTER" layoutX="33.0" layoutY="76.0" prefHeight="83.0" prefWidth="181.0" style="-fx-background-color: #f39c12; -fx-background-radius: 20;" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="76.0" prefHeight="21.0" prefWidth="117.0" text="Booking Rooms">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

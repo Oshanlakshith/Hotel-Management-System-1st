@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="605.0" prefWidth="1596.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PaymentFormController">
+   <children>
+      <AnchorPane layoutX="23.0" layoutY="84.0" prefHeight="505.0" prefWidth="441.0" style="-fx-border-color: #4b4b4b;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Payment Id :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPaymentId" layoutX="112.0" layoutY="14.0" prefHeight="21.0" prefWidth="72.0" text="0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="63.0" prefWidth="1596.0" style="-fx-background-color: #2f3640;">
+         <children>
+            <Label layoutX="688.0" layoutY="5.0" text="All Payments" textFill="#ffaa00">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="38.0" layoutY="128.0" prefHeight="21.0" prefWidth="116.0" text="Customer Id :" textFill="#ffecec">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="202.0" prefHeight="26.0" prefWidth="130.0" text="Recervation Id :" textFill="#ffecec">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="285.0" prefHeight="26.0" prefWidth="130.0" text=" PaymentDate :" textFill="#ffecec">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="352.0" prefHeight="26.0" prefWidth="130.0" text="PaymentTime :" textFill="#ffecec">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="432.0" prefHeight="21.0" prefWidth="116.0" text="Payment :" textFill="#ffecec">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCId" layoutX="203.0" layoutY="127.0" onAction="#CustomerSearch" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #fffa65;" />
+      <TextField fx:id="txtPayment" layoutX="201.0" layoutY="430.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #fffa65;" />
+      <TextField fx:id="txtPTime" layoutX="200.0" layoutY="351.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #fffa65;" />
+      <TextField fx:id="txtPDate" layoutX="200.0" layoutY="284.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #fffa65;" />
+      <TextField fx:id="txtRId" layoutX="200.0" layoutY="199.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #fffa65;" />
+      <ImageView fitHeight="525.0" fitWidth="1116.0" layoutX="477.0" layoutY="65.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/shutterstock_533075275.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tblPayments" layoutX="529.0" layoutY="122.0" opacity="0.86" prefHeight="411.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn fx:id="colCustomerId" prefWidth="158.0" text="Customer Id" />
+          <TableColumn fx:id="colReservationId" prefWidth="185.0" text="Recervation Id" />
+            <TableColumn fx:id="colPaymentDate" prefWidth="200.0" text="Payment Date" />
+            <TableColumn fx:id="colPaymentTime" prefWidth="213.0" text="Paiment Time" />
+            <TableColumn fx:id="colPayment" prefWidth="243.0" text="Payment" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
